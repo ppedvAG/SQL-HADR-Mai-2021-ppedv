@@ -5,4 +5,10 @@
 
  ## Modul01 Logshipping
 
- ## Modul03 Spiegelung
+ ## Modul02 Spiegelung
+
+ ## Modul03 Cluster
+ 
+ ### Clusterfähige Laufwerke
+ ### Windows Cluster
+ ### SQL Cluster 
