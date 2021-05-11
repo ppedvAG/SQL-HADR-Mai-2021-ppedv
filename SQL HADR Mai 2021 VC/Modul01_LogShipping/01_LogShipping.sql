@@ -24,5 +24,11 @@ von \\HV-SQL1\_BACKUP   --> C:\_BACKUP (HV_SQL2)
    Müssen wir unter anderem dem Konto des Agent der andere Seite ein ZUgriffsrecht geben (Freigabe und NTFS)
    und Vererbung aktivieren
 
+   Ist das Replikat lesefähig, müüssen Clients von der DB geworfen werden, wenn ein Restore kommt..
 
+   Um die sekundäre DB produktiv zu schalten:
+
+   restore database DBName 
+
+   Fertig...
 */
