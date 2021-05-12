@@ -52,7 +52,10 @@ SQLCLA --> SQLCLB.. ja, wenn bei auf densleben Windows Cluster
 AGXY -->  AVGXX
 
 
+ab SQL 2016 Sp 1 ist AVG auch in Std aber mit weniger Schmackes
 
+1 Db 1:1 DB (nicht lesbar)
+aber mit NT Cluster kann man den Listener  AVGSQL
 
 
 
