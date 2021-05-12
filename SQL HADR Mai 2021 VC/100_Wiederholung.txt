@@ -1,0 +1,46 @@
+HV-SQL1
+
+C:\_SQLBACKUPS\STDINSTANZ
+\\nodeone\STDINSTANZ
+
+
+HV-SQL2
+C:\_SQLBACKUPS\STDINSTANZ
+
+
+C:\_SQLDBS\STDINSTANZ\
+C:\_SQLDBS\STDINSTANZ\
+
+
+
+
+
+--Faulster Admin von Welt
+
+--Voraussetzung für Spiegeln:
+
+V+T und DB im Resorte Zustand
+
+
+LogShipping...(nicht Standby sondern restoring)
+
+auf Zielserver: DB restored mit V und T und im NoRecovery
+
+
+--Tipp:
+
+HVSQL1: V TTT
+HVSQL2: V TTT
+
+1. BackupJob deaktivieren
+2. Kopierjob ein paar mal manuell laufen lassen deaktiveren
+3. Restore Job ein laar mal laufen  deaktieren
+
+
+
+
+
+
+
+
+
