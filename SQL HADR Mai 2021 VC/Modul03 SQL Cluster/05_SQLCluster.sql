@@ -52,6 +52,34 @@ select * from sysdatabases
 SQLCLUST\PPEDV
 
 
+Hotfixes und CUs 4 Knoten
+ABCD
+
+A läuft-->FO -->B aktiv
+auf A CUs einspielen
+
+
+
+SQL CL --SPIEGELN-->   SQLA  ?
+
+
+SQL CL --SPIEGELN-->   SQLA  JA
+SQL CL --LS-->   SQLA  ..JA
+
+SQLA  --> SQL CL
+
+SQL CLA  --LS-->       SQL CLB
+SQL CLA  --Spiegeln--> SQL CLB
+B-->C FO, dann CU auf B
+C-->D  CU
+D-->A  CU
+
+wenn die Mehrheit durch ist.. 
+
+SQL 2016 mit SP1 > SQL 2016
+
+select @@microsoftversion
+
 
 
 

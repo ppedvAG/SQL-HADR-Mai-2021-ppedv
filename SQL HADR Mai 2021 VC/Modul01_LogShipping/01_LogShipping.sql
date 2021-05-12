@@ -31,4 +31,6 @@ von \\HV-SQL1\_BACKUP   --> C:\_BACKUP (HV_SQL2)
    restore database DBName 
 
    Fertig...
+
+   einen Redirect des Users auf den Sekundären gibts nicht
 */

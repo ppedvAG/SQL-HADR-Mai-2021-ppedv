@@ -29,6 +29,15 @@ zu tun:
 
 Tipp: registrierte Server.. Abfrage wird auf allen Server ausgeführt
 
+Autom FO und Redirect des Client:
+
+man braucht Zeugeninstanz
+
+auf jedem Client den SQLNCLI verwenden und dort den Failoverpartner eintragen:
+[oledb] Connectionstring
+; Everything after this line is an OLE DB initstring
+Provider=SQLNCLI11.1;Integrated Security=SSPI;Persist Security Info=False;User ID="";Initial Catalog=LSMIRROR;Data Source=NodeOne;Initial File Name="";Failover Partner=NodeTwo;Server SPN=""
+
 
 
 */
@@ -77,7 +86,7 @@ GO 30000
 
 --Spiegelungsmonitor.. rechte Maustaste auf DB.. Tasks
 
---Failover 
+--Failover auf Prinzipalseite
 ALTER DATABASE <database_name> SET PARTNER FAILOVER;
 GO
 
